@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>STRAFIO — Data-backed CS2 player POV</title>
+  <meta name="description" content="STRAFIO is a CS2 media brand: full player POV videos with team comms, round data and broadcast-style graphics, published on YouTube, TikTok and Instagram.">
+  <link rel="icon" type="image/svg+xml" href="assets/strafio-avatar.svg">
+  <meta property="og:title" content="STRAFIO — Data-backed CS2 player POV">
+  <meta property="og:description" content="Full CS2 player POV with team comms, round data and broadcast-style graphics.">
+  <meta property="og:image" content="https://caliskanzafer.github.io/strafio-site/assets/strafio-avatar-800.png">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#101214">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <a href="./" aria-label="STRAFIO home"><img src="assets/strafio-logo-dark.svg" alt="STRAFIO"></a>
+      <div class="right">
+        <nav aria-label="Primary">
+          <a href="#what">What we do</a>
+          <a href="#data">Data</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="follow" aria-label="Follow STRAFIO">
+          <a class="hot" href="https://www.tiktok.com/@strafio.cs2" rel="noopener"><span class="dot"></span>TikTok</a>
+          <a href="https://www.instagram.com/strafio.cs2" rel="noopener"><span class="dot"></span>Instagram</a>
+          <a href="https://www.youtube.com/@strafio.cs2" rel="noopener"><span class="dot"></span>YouTube</a>
+          <a href="https://x.com/Strafiocs2" rel="noopener"><span class="dot"></span>X</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="hero">
+      <div class="wrap">
+        <div>
+          <p class="eyebrow">CS2 media brand</p>
+          <h1>Data-backed player POV.</h1>
+          <p class="lede">STRAFIO turns Counter-Strike 2 matches into broadcast-quality videos from the player's own perspective, with team comms, round-level context and performance data on screen.</p>
+          <div class="actions">
+            <a class="btn primary" href="https://www.youtube.com/@strafio.cs2" rel="noopener">Watch on YouTube</a>
+            <a class="btn" href="#contact">Get in touch</a>
+          </div>
+          <p class="follow-label">Follow the shorts</p>
+          <div class="follow big">
+            <a class="hot" href="https://www.tiktok.com/@strafio.cs2" rel="noopener"><span class="dot"></span>TikTok</a>
+            <a href="https://www.instagram.com/strafio.cs2" rel="noopener"><span class="dot"></span>Instagram</a>
+            <a href="https://www.youtube.com/@strafio.cs2" rel="noopener"><span class="dot"></span>YouTube</a>
+          </div>
+          <p class="note" style="margin-top:12px">@strafio.cs2 on every platform</p>
+        </div>
+
+        <figure class="frame">
+          <div class="screen" role="img" aria-label="Illustration of a STRAFIO video frame: score strip, kill feed, speaker labels and economy bar over player POV gameplay">
+            <div class="score hud"><span class="ct">CT 7</span><span class="time">1:12</span><span class="t">T 5</span></div>
+            <div class="feed hud">
+              <div class="you">Player A <b>&#9679;</b> Player X</div>
+              <div>Player B <b>&#9679;</b> Player Y</div>
+              <div>Player C <b>&#9679;</b> Player Z</div>
+            </div>
+            <div class="crosshair"><i></i></div>
+            <div class="speakers">
+              <div style="border-color:var(--mate-blue);color:var(--mate-blue)">Player B</div>
+              <div style="border-color:var(--mate-orange);color:var(--mate-orange)">Player C</div>
+            </div>
+            <div class="economy hud">
+              <span class="pill">Round 13 &middot; <em>$4,750</em></span>
+            </div>
+            <img class="mark" src="assets/strafio-avatar.svg" alt="">
+          </div>
+          <figcaption>Illustration of the on-screen graphics. Names and numbers are placeholders.</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="strip">
+      <div class="wrap">
+        <ul class="chips">
+          <li>Player POV only</li>
+          <li>Team comms</li>
+          <li>Data from the demo</li>
+          <li>Vertical shorts</li>
+        </ul>
+      </div>
+    </div>
+
+    <section id="what">
+      <div class="wrap">
+        <h2>What we do</h2>
+        <p class="sub">The game comes first. The graphics explain it.</p>
+        <div class="grid">
+          <div class="card">
+            <h3>Full player POV</h3>
+            <p>One player's view of the whole match, recorded only while alive, in their own resolution and viewmodel.</p>
+          </div>
+          <div class="card">
+            <h3>Team comms</h3>
+            <p>Only the player's own team is heard, with the speaker's name shown on screen.</p>
+          </div>
+          <div class="card">
+            <h3>Round data</h3>
+            <p>Economy, utility and kill context drawn as light on-screen graphics that never cover the action.</p>
+          </div>
+          <div class="card">
+            <h3>Shorts</h3>
+            <p>Vertical highlights of the best moments for YouTube Shorts, TikTok and Instagram Reels.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="data">
+      <div class="wrap">
+        <h2>How match data is used</h2>
+        <p class="sub">Everything on screen comes from the match itself.</p>
+        <ol class="steps">
+          <li><span>We start from a match's demo file and its published match data.</span></li>
+          <li><span>Rounds, kills, positions, economy and utility are read directly from the demo. Nothing is estimated or invented.</span></li>
+          <li><span>The match is replayed in CS2 from the chosen player's point of view and recorded.</span></li>
+          <li><span>The video is finished with STRAFIO graphics and published with a description that credits the player and the match.</span></li>
+        </ol>
+        <p class="note" style="margin-top:28px">We use FACEIT match and player data to identify matches and players and to give viewers accurate context. Player names and statistics are shown as published by FACEIT. We do not use the data for anything other than producing these videos.</p>
+      </div>
+    </section>
+
+
+    <section id="contact">
+      <div class="wrap">
+        <h2>Contact</h2>
+        <p class="sub">Business, collaboration and API enquiries.</p>
+        <p><a class="mono" href="mailto:strafio.cs2@gmail.com">strafio.cs2@gmail.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>&copy; 2026 STRAFIO. <a href="privacy.html">Privacy policy</a></p>
+      <p>STRAFIO is an independent media brand. It is not affiliated with, endorsed by or sponsored by FACEIT, Valve Corporation or any player or team shown in its videos. Counter-Strike and CS2 are trademarks of Valve Corporation. FACEIT is a trademark of its respective owner.</p>
+    </div>
+  </footer>
+</body>
+</html>
